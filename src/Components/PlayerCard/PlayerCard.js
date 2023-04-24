@@ -8,7 +8,7 @@ const PlayerCard = ({ player, id }) => {
         <>
             <Link to={`/player/${id}`}>
                 <div className={classes.ImageContainer}>
-                    <img src={player.img} />
+                    <img src={player.img} key={id}/>
                 </div>
                 <div className={classes.InfoContainer}>
                 </div>
