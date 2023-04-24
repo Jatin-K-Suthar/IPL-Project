@@ -1,0 +1,11 @@
+body, div#root{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background-image: url("https://frolicking-profiterole-c5944a.netlify.app/Assets/Background/stadiumNight.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}

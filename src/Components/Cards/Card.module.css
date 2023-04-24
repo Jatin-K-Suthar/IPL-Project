@@ -1,0 +1,19 @@
+.CardBody img {
+    padding: 10px;
+    height: 220px;
+    width: 100%;
+    border: 4px solid #6293E3;
+    border-radius: 35px;
+    cursor: pointer;
+    background-color: white;
+    object-fit: contain;
+    transition: transform 0.1s ease;
+}
+
+.CardBody img:hover {
+    transform: scale(1.1);
+}
+
+.CardBody {
+    width: 100%;
+}
