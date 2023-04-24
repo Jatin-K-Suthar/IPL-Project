@@ -47,6 +47,3 @@ const TeamTable = () => {
 }
 
 export default TeamTable;
-
-// <Link to={`/teampage/${index}`} id={index}>
-{/* </Link> */ }
