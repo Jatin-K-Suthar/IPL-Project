@@ -499,7 +499,7 @@ export default [
     {
         "teamName": "Sunrisers Hyderabad",
         "abbreviation": "SRH",
-        "teamLogo": "https://hindubabynames.info/downloads/wp-content/themes/hbn_download/download/sports-ipl/sunrisers-hyderabad-logo.png",
+        "teamLogo": "https://upload.wikimedia.org/wikipedia/en/e/eb/Sunrisers_Hyderabad.png",
         "city": "Hyderabad",
         "bestBatsman": "David Warner",
         "bestBowler": "Rashid Khan",

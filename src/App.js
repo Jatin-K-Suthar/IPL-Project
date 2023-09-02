@@ -19,7 +19,7 @@ export default function App() {
                 <Routes>
                     <Route path={""} exact element={<Home />}></Route>
                     <>
-                        <Route path={"/teams"} element={<TeamTable />}> </Route>
+                        <Route path="/teams" element={<TeamTable />}> </Route>
                         <Route path="/create-team" element={<CreateTeamForm />}></Route>
                         <Route path="/create-player" element={<CreatePlayerForm />}></Route>
                         <Route path={"/teampage/:id"} element={<TeamDetails />}></Route>
