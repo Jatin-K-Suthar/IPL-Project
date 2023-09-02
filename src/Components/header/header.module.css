@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .headerContainer {
     width: 100%;
     display: flex;
@@ -22,4 +23,30 @@
 
 .headerContainer .headerImage{
     height: 77px;
+=======
+.headerContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 500;
+    background-color: #001021;
+}
+
+.headerContainer .headerTitle {
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 20px;
+    font-size: 2rem;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(44, 3, 71);
+    font-family: serif;
+}
+
+.headerContainer .headerImage{
+    height: 77px;
+>>>>>>> 485024d879c55c014adcd284ff0984111b99229d
 }

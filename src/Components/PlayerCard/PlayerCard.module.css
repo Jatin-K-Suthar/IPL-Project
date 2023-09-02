@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .ImageContainer img{
     border: 1px solid #dedbdb;
     background-color: white;
@@ -11,3 +12,18 @@
 } */
 
 
+=======
+.ImageContainer img{
+    border: 1px solid #dedbdb;
+    background-color: white;
+    object-fit: cover;
+    border: 2px solid black;
+    /* transition: transform 0.1s ease; */
+}
+
+/* .ImageContainer img:hover{
+    transform: scale(1.1);
+} */
+
+
+>>>>>>> 485024d879c55c014adcd284ff0984111b99229d

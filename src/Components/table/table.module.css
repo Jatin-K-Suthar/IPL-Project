@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .teamTable {
     font-size: 1.2em;
     text-align: left;
@@ -28,3 +29,35 @@
     background-color: #f1eeee;
 }
 
+=======
+.teamTable {
+    font-size: 1.2em;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 50px auto;
+    background-color: #fff;
+}
+
+.teamTable, th, td {
+    border: 1px solid #ccc;
+}
+
+.teamTable thead {
+    font-weight: bolder;
+}
+
+.teamTable thead tr th{
+    color: white;
+    background-color: #083688;
+    padding: 15px;
+}
+
+.teamTable tbody tr td{
+    padding: 10px;
+}
+
+.teamTable tr:hover {
+    background-color: #f1eeee;
+}
+
+>>>>>>> 485024d879c55c014adcd284ff0984111b99229d

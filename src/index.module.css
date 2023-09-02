@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* .AppContainer{
     width: 100vw;
     margin: 0;
@@ -7,4 +8,15 @@
 
 .AppContainer, body{
     /* overflow: hidden; */
+=======
+/* .AppContainer{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.AppContainer, body{
+    /* overflow: hidden; */
+>>>>>>> 485024d879c55c014adcd284ff0984111b99229d
 /* } */
