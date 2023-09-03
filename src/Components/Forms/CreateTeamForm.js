@@ -1,15 +1,17 @@
+// Import necessary dependencies
 import React, { useState } from "react";
 import { addTeams } from "../../Store/Slices/teamSlice";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-
 import classes from '../Forms/FormStyles.module.css';
 
-
+// Define the 'CreateTeamForm' functional component
 function CreateTeamForm() {
+    // Initialize Redux dispatch and navigation hooks
     const dispatch = useDispatch();
     const navigate = useNavigate();
 
+    // Initialize state variables for form inputs
     const [teamName, setTeamName] = useState("");
     const [fullTeam, setFullTeam] = useState("");
     const [playersCount, setPlayersCount] = useState(0);
@@ -19,8 +21,11 @@ function CreateTeamForm() {
     const [timesWon, settimesWon] = useState(0);
     const [city, setCity] = useState("");
 
+    // Handle form submission
     const handleSubmit = (e) => {
+        // Prevent the default form submission behavior
         e.preventDefault();
+        // Dispatch the 'addTeams' action with team data
         dispatch(addTeams({
             "teamName": teamName,
             "bestBatsman": bestBatsman,
@@ -29,12 +34,15 @@ function CreateTeamForm() {
             "captain": captain,
             "city": city
         }))
+        // Navigate to the '/teams' route after successful form submission
         navigate("/teams")
     };
 
+    // Return JSX for the 'CreateTeamForm' component
     return (
         <div className={classes.FormContainer}>
-            <form onSubmit={handleSubmit}>
+                {/* Form element with a input fields */}
+                <form onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="teamName">Enter New Team:</label>
                     <input type="text" id="teamName" value={teamName} onChange={(e) => setTeamName(e.target.value)} required/>
@@ -67,6 +75,7 @@ function CreateTeamForm() {
                     <label htmlFor="represntCity">Represnt City:</label>
                     <input type="text" id="represntCity" value={city} onChange={(e) => setCity(e.target.value)} required/>
                 </div>
+                {/* Submit button */}
                 <button type="submit"><span>Submit</span></button>
             </form>
         </div>

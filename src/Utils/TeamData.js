@@ -1,3 +1,4 @@
+//This utility data represents detailed information about the cricket teams, including their team name, abbreviation, team logo URL, city, key players, championships won, coaching staff, owner, home ground, and it's eleven players with their respective names, roles, and images.
 export default [
     {
         "teamName": "Mumbai Indians",

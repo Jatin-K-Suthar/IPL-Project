@@ -1,3 +1,4 @@
+/* Styles for the '.footerContainer' class */
 .footerContainer{
     width: 100%;
     font-size: 1.3em;
@@ -7,6 +8,7 @@
     justify-content: center;
 }
 
+/* Styles for paragraphs within '.footerContainer' class */
 .footerContainer p{
     text-align: center;
     position: sticky;

@@ -1,3 +1,4 @@
+// Import necessary dependencies
 import React from 'react';
 import classes from './table.module.css';
 import { useSelector } from 'react-redux';
@@ -5,15 +6,18 @@ import { useNavigate } from "react-router-dom";
 
 
 const TeamTable = () => {
+    // Retrieve teams data from Redux store, and inititalize navigation function
     const teams = useSelector(state => state.teams.teams)
     const navigate = useNavigate();
 
+    // Handle clicking on a team row and navigate to its details page
     const handleClick = (index) => {
         navigate(`/teampage/${index}`);
     }
 
     return (
         <table className={classes.teamTable}>
+            {/* Define a table with a specific CSS class */}
             <thead>
                 <tr>
                     <th>Team</th>
@@ -27,8 +31,9 @@ const TeamTable = () => {
                 </tr>
             </thead>
             <tbody>
+                {/* Map through teams and create table rows */}
                 {teams.map((team, index) => (
-                    <tr key={team.id} onClick={()=> {
+                    <tr key={team.id} onClick={()=> { {/* Set a click event handler for each row */}
                         (handleClick(index))}
                     }>
                         <td>{team.abbreviation}</td>

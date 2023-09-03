@@ -1,9 +1,11 @@
+/* Reset default margin, padding, and box-sizing */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Main container for the team details */
 .WrapperContainer {
     display: flex;
     position: relative;
@@ -11,6 +13,7 @@
     overflow: hidden;
 }
 
+/* Section for displaying content within the main container */
 .WrapperContainer section{
     display: flex;
     flex-wrap: wrap;
@@ -18,6 +21,7 @@
     align-items: center;
 }
 
+/* Styling for images within the section */
 .WrapperContainer section img{
     border-radius: 25px;
     height: 300px;
@@ -30,6 +34,7 @@
     transform: scale(1.1);
 }
 
+/* Aside container for additional information */
 .AsideContainer {
     width: 350px;
     height: 1030px;
@@ -61,6 +66,7 @@
 
 }
 
+/* Container for team information */
 .TeamInfoContainer{
     width: 100%;
     display: flex;
@@ -85,6 +91,7 @@
     font-size: 1.8rem;
 }
 
+/* Styling for horizontal rules within paragraphs */
 .TeamInfoContainer p hr {
     background-color: #000000;
     border: none;

@@ -1,3 +1,4 @@
+/* CSS for styling the form container */
 .FormContainer {
     width: 70%;
     margin: auto;
@@ -6,6 +7,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* CSS for styling the form element */
 form {
     border: 2px solid #9CAFD1;
     border-radius: 35px;
@@ -26,6 +28,7 @@ form input{
     background-color: #9CAFD1;
 }
 
+/* CSS for styling the form submit button */
 form button {
     font-size: 22px;
     width: auto;
@@ -37,6 +40,7 @@ form button {
     background-color: #04AA6D;
 }
 
+/* CSS for styling the form button on hover */
 form button:hover{
     cursor: pointer;
     color: whitesmoke;
@@ -45,6 +49,7 @@ form button:hover{
     box-shadow: 0 0 10px #04AA6D;
 }
 
+/* CSS for styling the form title */
 form h2{
     color: #D2691E;
     text-align: center;

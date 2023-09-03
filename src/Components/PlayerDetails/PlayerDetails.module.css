@@ -1,15 +1,18 @@
+/* Styles for PlayerDetailsContainer */
 .PlayerDetailsContainer {
     display: flex;
     justify-content: space-around;
     margin-top: 25px;
 }
 
+/* Styles for ImageContainer */
 .ImageContainer {
     background-color: whitesmoke;
     border: 2px solid black;
     border-radius: 10%;
 }
 
+/* Hover effect for ImageContainer's img */
 .ImageContainer img {
     width: 410px;
     height: 500px;
@@ -23,6 +26,7 @@
     transform: scale(1.11);
 }
 
+/* Styles for InfoContainer */
 .InfoContainer {
     background-color: whitesmoke;
     border: 2px solid black;
@@ -37,11 +41,13 @@
     justify-content: center;
 }
 
+/* Hover effect for text inside InfoContainer */
 .InfoContainer:hover p{
     font-size: 40px;
     transition: all 0.2s ease-in-out;
 }
 
+/* Revert font size when not hovering */
 .InfoContainer:not(:hover) p{
     font-size: 35px;
     transition: font-size 0.2s ease-in-out;

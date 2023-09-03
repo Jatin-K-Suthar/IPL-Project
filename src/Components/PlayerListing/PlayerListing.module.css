@@ -1,3 +1,4 @@
+/* Styling for the PlayersContainer */
 .PlayersContainer{
     box-sizing: border-box;
     margin: 5px;
@@ -16,6 +17,7 @@
     background-color: #152B52;
 }
 
+/* Styling for the search input */
 .SearchBox {
     width: 350px;
     margin: 10px 2%;
@@ -25,6 +27,7 @@
     border-radius: 8px;
 }
 
+/* Styling for list items */
 .Listitems {
     color: white;
     list-style-type: square;
