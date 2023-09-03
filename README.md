@@ -23,7 +23,7 @@ Here's how I've woven these principles into the project:
   * __Interactive Elements:__ The interactive elements within the app, such as team and player creation, demonstrate my proficiency in crafting engaging user interactions.
   * __Modular Code:__ The codebase is structured with modularity in mind, emphasizing readability, scalability, and ease of maintenance. This adherence to best coding practices ensures that future enhancements and collaborations are straightforward tasks.
   * __In-line Comments and Documentation:__ I've embedded comprehensive in-line comments throughout the code. These comments serve as valuable documentation, elucidating the purpose and functionality of various code segments. This documentation not only aids in understanding but also simplifies future updates and collaborative work.
-  * __Version Control with Git:__ The project is meticulously version-controlled using Git, with clear commit messages that provide insights into the progression of the codebase. This version control practice allows for easy tracking of changes and issue resolution.
+  * __Version Control with Github:__ The project is meticulously version-controlled using Git, with clear commit messages that provide insights into the progression of the codebase. This version control practice allows for easy tracking of changes and issue resolution.
 
 
 
