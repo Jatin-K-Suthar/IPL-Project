@@ -2,7 +2,7 @@
 A place where your love for cricket meets react-technology. Step into the shoes of your favorite IPL team, follow the legendary players, and get ready for an adrenaline-pumping experience. But that's not all – you have the power to create your own teams and players, adding a dash of personalization to the cricketing world. Dive into the IPL frenzy, where every boundary, every wicket, and every six is a moment of pure cricketing magic. It's not just an app; it's your gateway to the heart-pounding world of IPL cricket.
 
 ## Skills Demonstrated
-Lastly, behind the IPL Cricket React App lies a commitment to adhering to good coding practices. These practices ensure that the codebase is maintainable, scalable, and easy to collaborate on. 
+Behind the IPL Cricket React App lies a commitment to adhering to good coding practices. These practices ensure that the codebase is maintainable, scalable, and easy to collaborate on. 
 Here's how I've woven these principles into the project:
 
 ### HTML5, CSS3, and Javascript Mastery:
